@@ -18,7 +18,7 @@ if not command -q fisher
 end
 
 echo "==> Installing Fish plugins..."
-fisher update
+fisher install
 
 echo "==> Installing Fish configuration..."
 mkdir -p ~/.config
